@@ -1,0 +1,28 @@
+/* estilo modo normal */
+p {
+    background-color: black;
+    color: red;
+}
+/* estilo cuando se pasa el mouse por encima */
+p:hover{
+    border-color: yellow;
+    border-width: 2px;
+    border-style: solid;
+    background-color: blue;
+}
+/* formulario ejemplo :focus */
+input:focus{
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+    background-color: red;
+    color: white;
+}
+
+.activo:focus{
+    background-color: burlywood;
+    color: black;
+    box-shadow: 5px 5px 5px black;
+    border: none;
+
+}
