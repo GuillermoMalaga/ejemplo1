@@ -1,0 +1,24 @@
+html{
+    background-color: black;
+    color: white;
+}
+.div1{
+    background-color: darkgoldenrod;
+    padding: 5px;
+    margin-top: 50px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div2{
+    background-color: darkmagenta;
+}
+.div_interno{
+    width: 100%;
+    box-sizing: content-box;
+    background-color: blue;
+    border-color: yellow;
+    border-width: 20px;
+    border-style: solid;
+}
