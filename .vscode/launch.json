@@ -5,10 +5,21 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "pwa-chrome",
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+
+        {
+            "name": "Launch Chrome",
             "request": "launch",
-            "name": "Open ejemplo_pseudoselectores.html",
-            "file": "c:\\Users\\guill\\REPOSITOROS\\ejemplo1\\M01C05\\ejemplo_pseudoselectores.html"
+            "type": "chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
         }
+
+        
     ]
 }
